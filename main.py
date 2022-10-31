@@ -1,5 +1,5 @@
 def decToBase36(number):
-    base = 36
+    base = 36 # It is also possible to use this algorithm for bases less than 36.
     result = ""
     while True:
         symbols = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
